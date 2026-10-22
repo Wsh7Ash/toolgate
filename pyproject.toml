@@ -1,0 +1,12 @@
+[build-system]
+requires=["setuptools>=61.0"]
+build-backend="setuptools.build_meta"
+[project]
+name="toolgate"
+version="0.1.0"
+description="Schema and policy validation gate for LLM tool-call arguments, with allow/deny verdicts and redacted previews"
+readme="README.md"
+requires-python=">=3.10"
+dependencies=[]
+[tool.setuptools.packages.find]
+where=["src"]
